@@ -13,12 +13,12 @@
 // this function to their phone app in the future but in the mean time, I've built a simple circuit based on an ATTiny85.  
 // It will turn on a buzzer if the Tesla has been sitting in the garage for 30 minutes or more and the charge cables
 // are still coiled on the wall hook. There is a push button switch at the base of the wall hook that is depressed by the 
-// weight of the cables. The switch is monitored by the ATTiny. The switch is depressed by the weight of the cables. 
+// weight of the cables. The switch is monitored by the ATTiny. 
 // The ATTiny controls an HC-SR04 ultrasonic sensor which is aimed at the Tesla that is about 3 feet away when in the garage. 
 // If the Tesla is not in the garage, the HC-SR04 measures over 10 feet to the far wall. An LED is controlled by the ATTiny 
 // that blinks 1 to 9 times to indicate a distance of 1 to 9 feet. Blink rate is 1 second. If the distance is 10 feet or more, 
 // the LED blinks slowly at a rate of 5 seconds "on" & 5 seconds "off". The ATTiny repeats the loop every 10 seconds. 
-// The circuit is powered by a 5 Volt 1 Amp wallmart plug in.     
+// The circuit is powered by a 5 Volt 1 Amp wall wart supply.     
 //
 // Release History
 // Dec 23, 2021  Original Release
